@@ -33,6 +33,7 @@ const connectionParams = {
         console.error(`Error connecting to the database. \n${err}`);
     })
    
-
+const PORT = process.env.PORT || 3000;
+console.log(PORT);
 // Listen to the server
-app.listen(3000);
+app.listen(PORT);
