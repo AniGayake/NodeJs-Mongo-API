@@ -29,8 +29,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="app.js" />
+    <Content Include="Dockerfile" />
     <Content Include="models\User.js" />
-    <Content Include="Procfile" />
     <Content Include="routes\users.js" />
     <Content Include="server.js" />
     <Content Include="package.json" />
